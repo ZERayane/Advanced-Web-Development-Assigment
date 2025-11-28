@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#attendance">Attendance List</a>
+    <a href="#add-student">Add Student</a>
+    <a href="#">Reports</a>
+    <a href="#">Logout</a>
+</nav>
+
+
+<h2 id="home"></h2>
+
+
+<section id="attendance">
+    <h2>Student Attendance</h2>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+    <tr>
+        <th rowspan="2">Student ID</th>
+        <th rowspan="2">Last Name</th>
+        <th rowspan="2">First Name</th>
+        <th rowspan="2">Course</th>
+        <th colspan="2">Session date</th>
+    </tr>
+    <tr>
+        <th>Present</th>
+        <th>Participated</th>
+    </tr>
+    <td> 31771016 </td>
+	<td> ZEGGOUR </td>
+	<td> Rayane </td>
+	<td> DAW </td>
+	<td> Yes </td>
+	<td> Yes </td>
+</table>
+
+</section>
+
+
+<section id="add-student">
+    <h2>Add New Student</h2>
+
+    <div class="form-container">
+        <form>
+            <label>Student ID</label>
+            <input type="text" required>
+
+            <label>Last Name</label>
+            <input type="text" required>
+
+            <label>First Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
